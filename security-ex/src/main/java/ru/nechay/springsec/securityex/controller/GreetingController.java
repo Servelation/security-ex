@@ -13,4 +13,9 @@ public class GreetingController {
 		
 		return "greeting/greet";
 	}
+	@GetMapping("/main")
+	public String main(Model model) {
+		
+		return "greeting/main";
+	}
 }
